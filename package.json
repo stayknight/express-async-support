@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "hack of express to support async handler.",
   "main": "index.js",
-  "author": "stayknight",
+  "author": "stayknight@163.com",
   "license": "MIT",
   "keywords": [
     "expressjs",
@@ -30,5 +30,13 @@
     "mocha": "^8.2.1",
     "nyc": "^15.1.0",
     "supertest": "^6.2.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stayknight/express-async-support.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stayknight/express-async-support/issues"
+  },
+  "homepage": "https://github.com/stayknight/express-async-support#readme"
 }
