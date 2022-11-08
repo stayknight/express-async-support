@@ -1,0 +1,34 @@
+{
+  "name": "express-async-support",
+  "version": "1.0.0",
+  "description": "hack of express to support async handler.",
+  "main": "index.js",
+  "author": "stayknight",
+  "license": "MIT",
+  "keywords": [
+    "expressjs",
+    "async/await",
+    "async",
+    "await",
+    "es6"
+  ],
+  "files": [
+    "README.md",
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "eslint --fix --ext .js .",
+    "test": "mocha --recursive",
+    "coverage": "nyc yarn test"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.16.0",
+    "mocha": "^8.2.1",
+    "nyc": "^15.1.0",
+    "supertest": "^6.2.2"
+  }
+}

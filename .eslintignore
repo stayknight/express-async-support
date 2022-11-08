@@ -1,0 +1,9 @@
+build/*.js
+public
+dist
+libs
+node_modules
+test/
+tests/
+logs
+.nyc_output
